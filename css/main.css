@@ -86,3 +86,20 @@ a:hover {
   background-color: white;
   vertical-align: bottom;
 }
+.pages-section {
+  display: inline-block; 
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.pages-click, 
+.page-numbering {
+  display: inline-block;
+  font-size: 16px;
+  padding: 8px 25px;
+}
+
+.page-numbering {
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
