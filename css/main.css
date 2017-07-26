@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 .navbar{
 	position: fixed;
 	background: #EEEEEE;
@@ -12,6 +15,8 @@
 body{
 	font-family: "Roboto", sans-serif;
 	font-size : 16px;
+	margin:0;
+	padding:80px;
 }
 
 .greglogo{
@@ -36,11 +41,48 @@ a:hover {
 }
 
 .navitem{
-	font-size: 18px;
+	font-size: 16px;
 	padding: 0 6px;
 }
 .right-nav-part{
 	position: absolute;
 	right : 10px;
 	top:10px;
+}
+
+.search-section {
+	margin-bottom: 30px;
+	display: block;
+}
+
+.search-label {
+	margin-bottom: 8px;
+	display: block;
+}
+
+
+
+.search-section input {
+  font-size: 16px; /* Must be set due to specificity weirdness of inputs */
+  font-weight: 500;
+  width: 400px;
+  height: 30px;
+  padding: 0 5px 0 8px;
+  
+}
+
+.search-section .search-field, 
+.search-section .search-button {
+  display: inline-block;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  
+}
+
+.search-section .search-button {
+  width: 37px;
+  height: 30px;
+  padding: 2px 6px 3px 6px;
+  background-color: white;
+  vertical-align: bottom;
 }
