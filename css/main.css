@@ -5,9 +5,42 @@
 	right:0px;
 	top:0px;
 	border:1px solid #DDDDDD;
+	padding-left:10px;
+	padding-right:10px;
 
 }
 body{
 	font-family: "Roboto", sans-serif;
 	font-size : 16px;
+}
+
+.greglogo{
+	
+	display: inline-block;
+	margin:0;
+	padding:0;
+}
+
+.greglogo h1 {
+ 
+	font-size:20px;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.navitem{
+	font-size: 18px;
+	padding: 0 6px;
+}
+.right-nav-part{
+	position: absolute;
+	right : 10px;
+	top:10px;
 }
